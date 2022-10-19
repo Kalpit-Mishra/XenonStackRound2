@@ -21,9 +21,10 @@ nodemon server.js
 ```
 
 ### Registration Page For Registering 
-```
+
+
 ![1](https://user-images.githubusercontent.com/55074104/196818288-704fcec3-7e7e-40cb-98af-376f43a49db0.png)
-```
+
 
 Code is Running on 
 + http://localhost:3000/
