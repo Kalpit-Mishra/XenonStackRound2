@@ -1,6 +1,6 @@
-# Node.js-Register-Login-App
+# University website Xenonstack Task
 
-This is a user login and registration app using Node.js, Express, Mongoose, EJS and express-sessions.
+This is a university website which has login and logout flow and has a contact pahe with a beautifull homepage this website is build using Javascrript Node Js MongoDB and Express
 
 ## Getting Started
 
@@ -20,11 +20,16 @@ npm install
 nodemon server.js
 ```
 
+### Registration Page For Registering 
+```
+![1](https://user-images.githubusercontent.com/55074104/196818288-704fcec3-7e7e-40cb-98af-376f43a49db0.png)
+```
+
 Code is Running on 
 + http://localhost:3000/
 
 ### To checkout live
-<a href="https://nodejs-register-login-app.herokuapp.com" target="_blank">https://nodejs-register-login-app.herokuapp.com</a>
+<a href="https://uniweb-xenonstack.herokuapp.com/" target="_blank">https://uniweb-xenonstack.herokuapp.com/</a>
 
 ### Do not forget to leave a star! :hugs:
 
