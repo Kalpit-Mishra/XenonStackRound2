@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title  -->
-  <title>Tailwind One Page Template | Tailone</title>
+  <title>Imaginary University</title>
   <meta name="description" content="Tailwind One Page Template">
 
   <!-- Development css -->
@@ -71,17 +71,25 @@
 		        <div class="bg-gray-100 border-b border-gray-100 w-full p-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 		          <!-- section header -->
 		          <header class="text-center mx-auto mb-12 lg:px-20">
-		            <h2 class="text-2xl leading-normal mb-2 font-bold">Contact Us</h2>
+		            <h2 class="text-2xl leading-normal mb-2 font-bold">Registration</h2>
 		            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 60" style="margin: 0 auto;height: 35px;" xml:space="preserve">
 					        <circle cx="50.1" cy="30.4" r="5" class="stroke-primary" style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"></circle>
 					        <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
 					        <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
 				        </svg>
-		            <p class="text-gray-600 leading-relaxed font-light text-xl mx-auto pb-2">Have questions about service, please contact us.</p>
+		           
 		          </header><!-- end section header -->
 
+              <script>
+                function submit() {
+                   return 'Registration Successfull';
+                }
+                </script>
+                
+                
+
 		          <!-- contact form -->
-		          <form id="form1" method="post">
+		          <form id="form1" method="post" onsubmit="return submit()">
 		            <div class="flex flex-wrap flex-row -mx-4">
                         <div class="flex-shrink w-full max-w-full md:w-1/2 px-4 mb-6">
                             <label class="inline-block mb-2" for="email">Email</label>
@@ -97,7 +105,7 @@
 		            </div>
 		            <div class="mb-6">
 		              <label class="inline-block mb-2" for="subject">Password</label>
-		              <input type="password" class="w-full leading-5 relative py-3 px-5 rounded text-gray-800 bg-white " name="password" id="phone">
+		              <input type="password" class="w-full leading-5 relative py-3 px-5 rounded text-gray-800 bg-white " name="password" id="password">
 		              <div class="validate"></div>
 		            </div>
 
@@ -109,9 +117,10 @@
 		            
 		            <div class="text-center mb-6">
                         <input type="submit" value="Register" class="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border border-black hover:text-white hover:ring-0 focus:outline-none focus:ring-0">
+                        
 		            </div>
 
-                    <a href="/login" id="aa"></a>
+                    
 
 		          </form><!-- end contact form -->
 		        </div>
