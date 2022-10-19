@@ -1,6 +1,6 @@
 # University website Xenonstack Task
 
-This is a university website which has login and logout flow and has a contact pahe with a beautifull homepage this website is build using Javascrript Node Js MongoDB and Express
+This is a university website which has login and logout flow and has a contact page with a beautifull homepage this website is build using Javascrript Node Js MongoDB and Express
 
 ## Getting Started
 
