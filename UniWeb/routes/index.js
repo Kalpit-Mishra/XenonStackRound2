@@ -48,7 +48,7 @@ router.post('/registration', (req, res, next) => {
 
 					}).sort({ _id: -1 }).limit(1);
 					//res.send({ "Success": "You are regestered,You can login now." });
-					res.redirect(307, '/login')
+					res.redirect('/login')
 				} else {
 					res.send({ "Success": "Email is already used." });
 				}

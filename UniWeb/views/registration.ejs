@@ -42,12 +42,12 @@
 
                     document.getElementById("check").innerHTML = response.Success;
                     //ADD THIS CODE
-                    // setTimeout(() => {
-                    //     document.getElementById("check").innerHTML = "";
-                    // }, 3000);
-                    // if (response.Success == "You are regestered,You can login now.") {
-                    //     document.getElementById("aa").click();
-                    //};
+                    setTimeout(() => {
+                        document.getElementById("check").innerHTML = "";
+                    }, 3000);
+                    if (response.Success == "You are regestered,You can login now.") {
+                        document.getElementById("aa").click();
+                    };
                 },
                 error: () => {
                 }
@@ -120,7 +120,7 @@
                         
 		            </div>
 
-                    
+                    <a href="/login" id="aa"></a>
 
 		          </form><!-- end contact form -->
 		        </div>
