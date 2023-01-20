@@ -54,9 +54,6 @@ nodemon server.js
 Code is Running on 
 + http://localhost:3000/
 
-### To checkout live
-<a href="https://uniweb-xenonstack.herokuapp.com/" target="_blank">https://uniweb-xenonstack.herokuapp.com/</a>
-
 ### Do not forget to leave a star! :hugs:
 
 :heart_eyes: Thanks
